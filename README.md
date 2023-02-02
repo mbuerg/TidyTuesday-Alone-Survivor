@@ -28,4 +28,6 @@ Des Weiteren überrascht es, dass Männer einfacher ausscheiden. Vielleicht lieg
 den statistischen Zusammenhang zwischen Geschlecht und Ausstiegsgrund überprüft.Vielleicht ist es auch nur Zufall, da bisher nur vergleichsweise wenige 
 Frauen teilgenommen haben und hier ein Selektionsbias vorherrscht.
 
+Es wurde 0,014 als penalizer gewählt, da dieser zu dem kleinsten AIC führte. 
+
 ![10](https://user-images.githubusercontent.com/106337257/216416040-1974d01f-73f3-4cc7-a8f7-53db4631f7cb.png)
