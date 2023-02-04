@@ -7,8 +7,8 @@ Daten stammen von
 
 https://gradientdescending.com/alone-r-package-datasets-from-the-survival-tv-series/
 
-## Die Plots sollten größtenteils selbsterklärend sein
-![1](https://user-images.githubusercontent.com/106337257/216415716-50a21607-acce-42c3-acfb-b5e4acc2072e.png)
+## Die Plots sollten selbsterklärend sein
+![1](https://user-images.githubusercontent.com/106337257/216768447-59945186-cc1b-4178-b814-1106c298edd7.png)
 ![2](https://user-images.githubusercontent.com/106337257/216415937-a927351e-9b8e-4969-b23a-ebc4eb51a529.png)
 ![3](https://user-images.githubusercontent.com/106337257/216415950-a21dca58-785d-4822-9eab-f4d1f56ac0cb.png)
 ![4](https://user-images.githubusercontent.com/106337257/216415959-cac5081f-64c1-4f94-a7c6-3c2ad5602b81.png)
