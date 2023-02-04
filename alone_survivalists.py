@@ -23,7 +23,7 @@ survivalists = pd.read_csv(r"path\survivalists.csv",
                            index_col = 0)
 loadouts = pd.read_csv(r"path\loadouts.csv",
                        index_col = 0)
-episodes = pd.read_csv(r"path\episodes.csv",
+episodes = pd.read_csv(r"C:path\episodes.csv",
                        index_col = 0)
 seasons = pd.read_csv(r"path\seasons.csv",
                       index_col = 0)
@@ -50,7 +50,6 @@ loadouts["name"][loadouts["season"] == 5] = (loadouts["name"]
 
 survivalists_and_loadouts = (survivalists.merge(loadouts, how = "outer", 
                                                 on = ["season", "name"]))
-
 
 
 seasons_and_episodes_description = seasons_and_episodes.describe(include = "all")
@@ -80,15 +79,22 @@ def drehorte_fuer_barchart(drehort):
     for i in range(len(drehort)):   
         ax.text(i+0.9, 3, drehort[i], rotation = 90, color = "black")
 
+def datenbeschriftung_drehorte(daten):
+    for i, j in enumerate(daten):
+        ax.text(i+0.8, j+0.2, np.round(j, 2))
+
 fig, ax = plt.subplots()
 ax.bar(seasons,bar_values)
 ax.set_xticks(seasons, seasons)
 drehorte_fuer_barchart(location)
+datenbeschriftung_drehorte(bar_values)
 ax.set_title("Anzahl Episoden und deren Drehort")
 ax.set_xlabel("Staffel")
 ax.set_ylabel("Anzahl Episoden")
+ax.get_yaxis().set_visible(False)
 ax.spines["right"].set_visible(False)
 ax.spines["top"].set_visible(False)
+ax.spines["left"].set_visible(False)
 
 
 # Viewer Entwicklung
